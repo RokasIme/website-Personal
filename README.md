@@ -8,7 +8,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/54-grupe-teamwork-personal/
+Site published at: https://rokasime.github.io/website-Personal/
 
 Design: [Personal](https://preview.colorlib.com/theme/personal/index.html)
 
@@ -46,7 +46,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://front-end-by-rimantas.github.io/54-grupe-teamwork-personal.git
+   git clone https://github.com/RokasIme/website-Personal.git
    ```
 2. Install NPM packages
    ```sh
