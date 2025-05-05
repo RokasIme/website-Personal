@@ -1,0 +1,23 @@
+.main-container {
+    background: linear-gradient(to right, var(--purple), var(--blue));
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+    
+}
+
+.number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.text {
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: var(--white);
+    font-weight: normal;
+}
+

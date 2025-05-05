@@ -1,0 +1,40 @@
+.single-services {
+  text-align: center;
+}
+
+.single-services-block {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 50px;
+}
+
+.single-services-icon {
+  font-size: 2.1875rem;
+  user-select: none;
+}
+
+.single-services-text {
+  color: rgb(119, 119, 119);
+  font-size: 0.9rem;
+  padding: 0 30px;
+}
+
+.single-services-link {
+  color: black;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.single-services-block:hover .single-services-link {
+  color: #8490ff;
+}
+
+.single-services-block:hover .single-services-icon {
+  color: #8490ff;
+  background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

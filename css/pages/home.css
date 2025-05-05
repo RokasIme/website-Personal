@@ -1,0 +1,22 @@
+/* base */
+@import "../base/main.css";
+@import "../base/layout.css";
+
+/* vendor */
+@import "../vendor/font-awesome.min.css";
+
+/* components */
+@import "../components/header.css";
+@import "../components/hero.css";
+@import "../components/section-title.css";
+@import "../components/single-services.css";
+@import "../components/numbers.css";
+@import "../components/featured-projects-section.css";
+@import "../components/client-feedback-section.css";
+@import "../components/choose-your-plan.css";
+@import "../components/latest-posts.css";
+@import "../components/sub-footer.css";
+@import "../components/footer.css";
+
+
+/* custom */

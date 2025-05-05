@@ -1,0 +1,106 @@
+.featured-projects-section {
+  padding: 10px;
+}
+
+.featured-projects-section-category {
+  background: none;
+  font-family: inherit;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 0.75rem;
+}
+
+.featured-projects-section-category::after {
+  display: block;
+  position: absolute;
+  content: "";
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: transparent;
+  transition: width 350ms ease-out 100ms;
+}
+
+.featured-projects-section-category:hover::after {
+  width: 33%;
+  background-color: black;
+}
+
+.featured-projects-section-category-active {
+  color: rgb(132, 144, 255);
+}
+
+.featured-projects-section-items {
+  padding: 0.8rem 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+  transition: all 1s;
+  overflow: hidden;
+}
+
+.featured-projects-section-block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(34, 34, 34);
+  transition: all 300ms;
+}
+
+.featured-projects-section-items h4 {
+  margin-top: 20px;
+  font-size: 1.125rem;
+}
+
+.featured-projects-section-items p {
+  color: rgb(119, 119, 119);
+}
+
+.featured-projects-section-category-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.featured-projects-section-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.featured-projects-section-image-wrapper > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.featured-projects-section-overlay {
+  background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.featured-projects-section-block:hover .featured-projects-section-overlay {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1200px) {
+  .featured-projects-section-items {
+    padding: 0.8rem;
+  }
+}

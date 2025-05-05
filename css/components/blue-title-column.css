@@ -1,0 +1,33 @@
+.blue-container {
+    background: linear-gradient(to right, var(--purple), var(--blue));
+}
+
+.blue-content {
+    text-align: center;
+}
+
+.blue-title {
+    color: var(--white);
+    text-transform: capitalize;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.blue-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-links a {
+    color: var(--white);
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.blue-links span {
+    color: var(--white);
+    margin: auto 1.5rem;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,122 @@
+.qualifications-section-row {
+  display: flex;
+  text-align: center;
+  color: rgb(34, 34, 34);
+}
+
+.qualifications-section-main {
+  padding-top: 50px;
+}
+
+.qualifications-section-right,
+.qualifications-section-left {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.qualifications-section-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.qualifications-section-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.qualifications-section-middle {
+  flex: 0 0 100px;
+  position: relative;
+  content: "";
+}
+
+.qualifications-section-middle::before {
+  width: 2px;
+  height: 100%;
+  background-color: #ebebfb;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  transition: all 200ms;
+}
+
+.qualifications-section-middle::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #8490ff;
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  border: 5px solid #eeeeee;
+  transition: all 200ms;
+}
+
+.qualifications-section-row:hover .qualifications-section-middle::before {
+  background-color: #8490ff;
+}
+
+.qualifications-section-content {
+  background-color: white;
+  box-shadow: 0px 10px 27px 3px rgba(204, 204, 204, 0.2);
+  position: relative;
+  width: 360px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+  align-items: center;
+  transition: all 1s;
+}
+
+.qualifications-section-content img {
+  width: 70px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.qualifications-section-row h4 {
+  font-size: 1.125rem;
+  padding-bottom: 10px;
+}
+
+.qualifications-section-row p {
+  font-size: 0.875rem;
+  color: rgb(119, 119, 119);
+}
+
+.qualifications-bold {
+  color: rgb(92, 92, 92);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .qualifications-section-middle {
+    order: -1;
+    flex: 0 0 30px;
+  }
+
+  .qualifications-section-content {
+    width: 100%;
+    margin: 10px 0;
+    padding: 30px;
+  }
+
+  .qualifications-section-left:empty,
+  .qualifications-section-right:empty {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .qualifications-section .row {
+    width: 98%;
+    margin: 0 auto;
+  }
+}

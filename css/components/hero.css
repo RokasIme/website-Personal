@@ -1,0 +1,100 @@
+.hero-section {
+  background-color: #f9f9ff;
+  padding-bottom: 0;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.content {
+  color: #222;
+  text-align: left;
+  padding: 0 1rem;
+}
+
+.topic {
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.name {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.personal-details {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.hero-text {
+  font-size: 15px;
+  color: #777;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  max-height: 400px;
+}
+
+.hero-section img {
+  height: auto;
+  max-width: 100%;
+  padding-left: 2rem;
+}
+.hero-section .img-div {
+  margin-top: 2rem;
+}
+
+.img-div-about {
+  margin-top: 4rem;
+}
+
+.img-div-about img {
+  height: auto;
+  max-width: 100%;
+}
+
+.about-me-section .content {
+  margin-bottom: 30px;
+}
+.btn {
+  background: linear-gradient(to right, #8490ff 0%, #62bdfc 100%);
+  transition: all 0.3s ease 0s;
+  padding: 10px 30px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.btn:hover {
+  box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.3);
+}
+
+@media (min-width: 768px) {
+  .content {
+    margin-top: 5rem;
+  }
+  .name {
+    font-size: 40px;
+  }
+
+  .img-div-about {
+    margin-top: 7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .name {
+    font-size: 55px;
+  }
+  .personal-details {
+    font-size: 2rem;
+  }
+  .img-div-about {
+    margin-top: 4rem;
+  }
+}

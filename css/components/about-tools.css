@@ -1,0 +1,33 @@
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+.tools-name {
+  margin-left: 1rem;
+}
+.progress-bar-up {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.9rem;
+  color: var(--grey);
+  margin-top: 1.7rem;
+  text-transform: capitalize;
+}
+
+.progress-bar-down {
+  height: 0.8rem;
+  width: 100%;
+  background-color: #ddd;
+  border: 0.2em solid #eee;
+  border-radius: 0.35em;
+}
+
+.bar {
+  height: 0.4rem;
+  background: linear-gradient(to right, var(--purple), var(--blue));
+  border-radius: 0.2rem;
+}
