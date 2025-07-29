@@ -61,23 +61,12 @@ Would like to run this project locally? Open terminal and follow these steps:
    npm run dev
    ```
 
-### 🧪 Running tests
 
-There is no tests for this project.
-
-## 🎅 contributors
+## 🎅 Authors
 
 [Github - Rokas](https://github.com/RokasIme)
 
-[Github - Kristina](https://github.com/kristinakripke)
 
-[Github - Silvija](https://github.com/Silvija96)
-
-[Github - Gintarė](https://github.com/GintareLa)
-
-[Github - Jonas](https://github.com/joraka)
-
-[Github - Rimantas](https://github.com/belauzas)
 
 ## 🔗 Other resources
 
